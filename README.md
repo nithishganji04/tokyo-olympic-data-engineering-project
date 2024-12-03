@@ -3,7 +3,7 @@
 ## 📖 Project Overview  
 This project demonstrates an **end-to-end ETL pipeline** built using Microsoft Azure services to process and analyze the Tokyo 2021 Olympics dataset. The primary goal is to gain hands-on experience with Azure tools by integrating services for data ingestion, storage, transformation, and visualization. While the project is a learning exercise, it provides a foundational framework for scalable and efficient data operations.
 
-![Architecture Diagram](screenshots/project_architecture_diagram.png)
+![Architecture Diagram](screenshots/architecture.png)
 ---
 
 ## 📊 Dataset  
