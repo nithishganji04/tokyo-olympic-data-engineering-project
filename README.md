@@ -46,9 +46,8 @@ The dataset consists of five CSV files related to the Tokyo 2021 Olympics:
    - Raw data was copied from a GitHub repository using ADF pipelines.  
    - Data was stored in the `raw-data` folder in ADLS Gen2.
 
-![copy_data](screenshots/azure_df.png)
 
-![raw-data](screenshots/adls_raw_data.png)
+![raw-data](screenshots/raw_data.png)
 
 2. **Data Transformation**  
    - Data was processed in Azure Databricks using PySpark:  
@@ -56,19 +55,19 @@ The dataset consists of five CSV files related to the Tokyo 2021 Olympics:
      - Performed schema validation and cleaned missing values.  
      - Transformed data was written to the `transformed-data` folder in ADLS Gen2.
 
+
+![data-transformation](screenshots/azure_databricks.png)
 ![data-transformation](screenshots/azure_databricks_2.png)
 
-![data-transformation](screenshots/azure_databricks_3.png)
 
-![data-transformation](screenshots/azure_databricks_4.png)
 
-![data-transformation](screenshots/adls_transformed_data.png)
+![data-transformation](screenshots/transformed_date.png)
 
 3. **Data Warehousing**  
    - Transformed data was linked to Azure Synapse Analytics.  
    - Tables were created in a SQL pool for querying and analysis.
      
-![data-warehousing](screenshots/azure_synapse_3.png)
+![data-warehousing](screenshots/azure_synapse.png)
 
 4. **Visualization (In Progress)**  
    - Power BI integration was initiated for interactive dashboard creation.  
@@ -100,20 +99,6 @@ The dataset consists of five CSV files related to the Tokyo 2021 Olympics:
 
 ---
 
-## 🔍 Potential Improvements  
-
-### **Production-Grade Enhancements**  
-- Add robust logging and monitoring in ADF pipelines.  
-- Implement security measures like Role-Based Access Control (RBAC).  
-- Optimize Databricks transformations for performance.
-
-### **Expanded Transformations**  
-- Perform advanced data cleaning, like outlier detection.  
-- Add feature engineering for enhanced analytics.
-
-### **Visualization Completion**  
-- Complete Power BI integration to deliver actionable insights.  
-- Create dashboards for medal analysis, participation trends, and team performance.
 
 ---
 
